@@ -17,7 +17,7 @@ Importance of Insight: Analyzing company employment rates and stock prices helps
   - Deployed the application on Streamlit for easy access and sharing.
 
 ### Submission Details
-- **Tech**: Python, Hugging Face LLM, Streamlit
+- **Tech**: (BACKEND) Python Scripts + Hugging Face LLM: Utilizing Hugging Face's Language Model (LLM) provides powerful natural language processing capabilities, and efficient text analysis and generation. Together, Python scripts and Hugging Face LLM offer a flexible and scalable solution for data processing and AI-driven content generation. (FRONTEND) Streamlit: This is a simple way to create a Python web applications. It's great for rapid prototyping and deployment of data-driven applications. You can also seamlessly integrate backend functionalities into frontend interfaces.
 - **Application Link**: [https://sec-edgar-analysis-cnvipbndcfjebq8rryadzv.streamlit.app/](https://sec-edgar-analysis-cnvipbndcfjebq8rryadzv.streamlit.app/)
 
 ### Additional Notes
