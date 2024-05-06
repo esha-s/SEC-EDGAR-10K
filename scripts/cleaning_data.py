@@ -5,7 +5,7 @@ import re
 import unicodedata
 
 # Define the directory path
-sec_edgar_path = "C:/Research/SEC-EDGAR-Analysis/scripts/sec-edgar-filings"
+sec_edgar_path = "./sec-edgar-filings"
 
 # Define patterns for each section we want to extract
 item_patterns = [

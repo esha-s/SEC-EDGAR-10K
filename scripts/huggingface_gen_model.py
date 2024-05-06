@@ -4,9 +4,9 @@ import pandas as pd
 from transformers import TFAutoModelForQuestionAnswering, AutoTokenizer, pipeline
 
 # Define directory path
-cleaned_data_path = "C:/Research/SEC-EDGAR-Analysis/scripts/model_gen_data"
-extracted_data_path = "C:/Research/SEC-EDGAR-Analysis/scripts/model_gen_data_extracted"
-sec_edgar_path = "C:/Research/SEC-EDGAR-Analysis/scripts/sec-edgar-filings"
+cleaned_data_path = "./model_gen_data"
+extracted_data_path = "./model_gen_data_extracted"
+sec_edgar_path = "./sec-edgar-filings"
 
 
 def run_llm_model(cleaned_csv, company):
@@ -52,7 +52,7 @@ def run_llm_model(cleaned_csv, company):
         answer['stock_answer'].append(res['answer'])
 
     # Write findings to csv
-    with open('model_gen_data_extracted/'+company+'_extracted.csv', 'a', encoding="utf-8") as newfile:
+    with open('model_gen_data_extracted/'+company+'_extracted1.csv', 'a', encoding="utf-8") as newfile:
         writer = csv.DictWriter(newfile, fieldnames=['stock_answer'])
         writer.writerows([answer])
         
