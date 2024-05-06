@@ -4,7 +4,7 @@ import ast
 import re
 
 # Directory path
-path = "C:/Research/SEC-EDGAR-Analysis/scripts/model_gen_data_extracted/"
+path = "./scripts/model_gen_data_extracted/"
 # Read the CSV files for each company
 df_aapl = pd.read_csv(path + 'AAPL_extracted1.csv', header=None)
 df_goog = pd.read_csv(path + 'GOOG_extracted1.csv', header=None)
