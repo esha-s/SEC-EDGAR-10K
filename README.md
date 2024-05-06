@@ -18,7 +18,7 @@ Importance of Insight: Analyzing employee rates and stock prices helps in unders
 
 ### Submission Details
 - **Tech**: Python, Hugging Face LLM API, Streamlit
-- **Application Link**: [https://sec-edgar-10k-eb93qbb3lp68ab3hh9ahww.streamlit.app/](https://sec-edgar-10k-eb93qbb3lp68ab3hh9ahww.streamlit.app/)
+- **Application Link**: [https://sec-edgar-analysis-cnvipbndcfjebq8rryadzv.streamlit.app/](https://sec-edgar-analysis-cnvipbndcfjebq8rryadzv.streamlit.app/)
 
 ### Additional Notes
 - For future development, explore using Chainlit in conjunction with Ollama's llama2 and Hugging Face sentence transformers to build a more robust LLM generative model pipeline. Using tools like PyPDFLoader or HTML readers could lead to a more consistent and centralized parsing process. 
